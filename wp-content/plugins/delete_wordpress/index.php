@@ -26,34 +26,25 @@ function kwp_change_title(){
 
 }
 
-function kwp_facebook_like($content){
-    echo do_shortcode($content);
-    echo '<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FOGTVY%2F&width=50&layout=button&action=like&size=large&show_faces=true&share=true&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>';
-}
-
-<<<<<<< HEAD
 function kwp_notification(){
-    
+
     echo '<div class="notice notice-info">';
     echo '<p>Please buy AK47</p>';
         echo'</div>';
-    
+
 }
 
 
 function kwp_random_banner(){
-    
+
     $images = array(
-    
+
     'http://placehold.it/350x150/FF0000',
     'http://placehold.it/350x150/00ff00',
     'http://placehold.it/350x150/0000ff',
-    
+
     );
-    
+
     echo '<img src="'.$images[rand(0,2)].'">';
-    
+
 }
-=======
-// comment //
->>>>>>> 653e738be47036feb07ee1a495955c9589ed6200
