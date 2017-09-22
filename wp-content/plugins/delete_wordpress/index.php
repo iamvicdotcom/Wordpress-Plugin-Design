@@ -11,7 +11,6 @@ Description: First Plugin Made
 
 add_shortcode('afisare_text','kwp_afisare_text');
 add_filter('the_title','kwp_change_title');
-add_filter('the_content','kwp_facebook_like');
 add_action('admin_notices','kwp_notification');
 add_shortcode('imagini_random','kwp_random_banner');
 
