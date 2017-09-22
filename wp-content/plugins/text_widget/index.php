@@ -1,7 +1,7 @@
 
 <?php
 /*
-    Plugin Name: Ipsum Generator   
+    Plugin Name: Ipsum Generator
     Plugin URI: https://swissacademy.eu
     Author: HaHaHa Programmer
     Author URI: https://swissacademy.eu
@@ -16,30 +16,33 @@ function register_text_widget(){
 
 
 class Text_ipsum extends WP_Widget {
-    
+
     public function __construct(){
         parent::__construct(
         'text_ipsum', //id
         'Text_ipsum', //Name
         array('description' => 'This is a fun widget!')
-        
+
         );
-        
+
     }
 
 
     public function widget($args, $instance){
-        // ce punem aici apare si pe site 
-            
+        // ce punem aici apare si pe site
+
     }
-    
+
     public function form($instance){
         //ce apare aici afiseaza in backend la WP
+echo '<h2>ManeleTV</h2>';
+
+
+
     }
-    
+
     public function update($new_instance, $old_instance){
-        
-        
+
+
     }
 }
-
